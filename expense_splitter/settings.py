@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-^pvtuyh&g((+38xd4&07(!r4+e#c-$kpf*n0xrmtpr*jfwrw_h
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['expense-splitter-backend-1.onrender.com']
 
 
 # Application definition
