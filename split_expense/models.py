@@ -4,7 +4,7 @@ from django.core.exceptions import ValidationError
 # Create your models here.
 
 class ExpenseGroup(models.Model):
-    name = models.CharField(max_length=100, unique=True)
+    name = models.CharField(max_length=100)
     members = models.ManyToManyField(User, related_name="expense_groups")
 
     def __str__(self):
